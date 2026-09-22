@@ -1,4 +1,5 @@
 import React from 'react';
+import withLogger from '../../hocs/withLogger';
 
 const Header: React.FC = () => {
   return (
@@ -12,4 +13,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default withLogger(Header, 'Header');
