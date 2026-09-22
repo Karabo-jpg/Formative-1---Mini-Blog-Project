@@ -23,6 +23,13 @@ const samplePosts: PostType[] = [
     author: 'Alice Johnson',
     preview: 'Using strict mode in TypeScript helps catch potential bugs early in development...',
     date: '2023-10-27'
+  },
+  {
+    id: '4',
+    title: 'Understanding Conditional Styling',
+    author: 'Jane Doe',
+    preview: 'Conditional styling allows us to dynamically change the appearance of components based on props or state...',
+    date: new Date().toISOString().split('T')[0]
   }
 ];
 

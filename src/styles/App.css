@@ -1,0 +1,95 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* App Layout */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #eaeaea;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.new-post-link {
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.new-post-link:hover {
+  background-color: #2980b9;
+}
+
+/* PostList Styles */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Post Styles (Base) */
+.post-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.post-container:hover {
+  transform: translateY(-2px);
+}
+
+.post-title {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.post-author {
+  font-weight: 600;
+}
+
+.post-preview {
+  color: #555;
+}
